@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src='logic.js'> </script>
     <title>B2Dec</title>
 </head>
@@ -19,13 +23,15 @@
         <form>
             <div class="input">
                 <label for="bin">Input your binary:</label>
-                <input type="number" id="bin" name="binary" title="Binary number" placeholder="Binary Number">
-            </div>
+                <input type="number" id="bin" name="binary" title="Binary number" placeholder="Binary Number" onfocus="this.placeholder = ''">
+            </div><!--
 
-            <div class="output">
+         --><div class="output">
                 <label for="dec">Your Decimal is:</label>
-                <input type="number" name="decimal" id="dec" readonly>
-            </div>
+                <input type="number" name="decimal" id="dec" placeholder="Decimal Number" readonly>
+            </div><!--
+        
+         -->
             <div class="button">
                 <input type="button" value="CONVERT" onclick="con()">
             </div>
