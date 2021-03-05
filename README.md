@@ -5,4 +5,6 @@ This repository contains the binary to decimal converter page I created using HT
 
 I made this page to practice my studies with the technologies.
 
+There is a preview [here](https://gabriel-lima-b.github.io/bin-dec-converter-js/)
+
 Thanks for your interest in my project!
