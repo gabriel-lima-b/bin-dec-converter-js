@@ -15,4 +15,11 @@ function con() {
   return true;
 };
 
+const inputText = document.getElementById('bin');
 
+        inputText.addEventListener('keyup', function (event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                document.getElementById('myBtn').click();
+            }
+        });
